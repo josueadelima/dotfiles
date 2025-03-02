@@ -119,7 +119,7 @@ fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 
 # Created by `pipx` on 2024-03-13 08:38:50
-export PATH="$PATH:/Users/josue/.local/bin"
+export PATH="$PATH:/$HOME/.local/bin"
 
 # Allow tmux to load properly UTF-8
 alias tmux='tmux -u'
